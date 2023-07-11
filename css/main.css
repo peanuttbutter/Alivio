@@ -58,12 +58,13 @@ body {
 		width: 100%;
 	}
 }
+
 @media (max-width: 740px) {
 	.container {
-		width: 100%;
 		overflow-y: hidden;
 	}
 }
+
 
 /*---------------mobile----------------------*/
 
@@ -123,7 +124,7 @@ body {
 	background-color: transparent;
 }
 
-.mobile-nav-button-icon.active::beation on closinfore {
+.mobile-nav-button-icon.active::before {
 	transform: rotate(45deg);
 	top: 0;
 	/*	transformation on opening */
@@ -152,8 +153,6 @@ body {
 	text-align: center;
 	padding: 40px 15px;
 }
-
-.mobile-nav-logo {}
 
 .mobile-nav-list li + li {
 margin-top: 20px;
